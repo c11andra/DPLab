@@ -1,19 +1,19 @@
 using System;
 
 namespace DPLab{
-    public sealed class Calculator{
+    public sealed class SCalculator{
         private static int i = 0;
-        private Calculator()
+        private SCalculator()
         {
             ++i;
         }
 
-        private static Calculator instance;
-        public static Calculator Instance()
+        private static SCalculator instance;
+        public static SCalculator Instance()
         {
             if(instance == null)
             {
-                instance = new Calculator();
+                instance = new SCalculator();
             }
             return instance;
         }
