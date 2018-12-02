@@ -1,11 +1,12 @@
 using System;
 
-namespace DPLab{
+namespace DPLab.Singleton.Solution
+{
     public sealed class Calculator{
-        private static int i = 0;
+        private static int instanceCount = 0;
         private Calculator()
         {
-            ++i;
+            ++instanceCount;
         }
 
         private static Calculator instance;
@@ -20,7 +21,7 @@ namespace DPLab{
 
         public void Launch()
         {
-           Console.WriteLine($"Instance : {i}");
+           Console.WriteLine($"Instance : {instanceCount}");
         }
     }
 }

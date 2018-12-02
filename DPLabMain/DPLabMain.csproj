@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Singleton\DPLab.csproj" />
+    <ProjectReference Include="..\Singleton\Problem\SingletonProblem.csproj" />
+    <ProjectReference Include="..\Singleton\Solution\SingletonSolution.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
