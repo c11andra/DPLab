@@ -8,7 +8,8 @@ namespace DPLabMain
 
         static void Main(string[] args)
         {
-           Tests.TestSingleton();
+           SingletonDemo.Show();
+           BridgeDemo.Show();
         }
     }
 }

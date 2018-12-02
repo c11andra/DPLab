@@ -3,6 +3,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Singleton\Problem\SingletonProblem.csproj" />
     <ProjectReference Include="..\Singleton\Solution\SingletonSolution.csproj" />
+    <ProjectReference Include="..\Bridge\Problem\BridgeProblem.csproj" />
+    <ProjectReference Include="..\Bridge\Solution\BridgeSolution.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
