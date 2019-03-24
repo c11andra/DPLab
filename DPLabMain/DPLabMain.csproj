@@ -5,6 +5,7 @@
     <ProjectReference Include="..\Singleton\Solution\SingletonSolution.csproj" />
     <ProjectReference Include="..\Bridge\Problem\BridgeProblem.csproj" />
     <ProjectReference Include="..\Bridge\Solution\BridgeSolution.csproj" />
+    <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
